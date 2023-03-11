@@ -31,35 +31,29 @@ parser.on('data', data => {
   });
 });
 
-/*
-Run One Function At a Time
-*/
-
-
-
 // Function 1 = Creating Database 
-// client.on('message', function (topic, message) {
-//   let message2 = message.toString();
-//   const myArray = message2.split(" ");
-//   id = myArray[0];
-//   pirdata = myArray[1];
-// id == id;
-// data = pirdata;
-// const newDevice = new Device({
-//   id,
-//   data
-// });
-// newDevice.save(err => {
-//   return err
-//     ? console.log("Error " + error)
-//     : console.log("Device Saved");
-// });
+client.on('message', function (topic, message) {
+  let message2 = message.toString();
+  const myArray = message2.split(" ");
+  id = myArray[0];
+  pirdata = myArray[1];
+id == id;
+data = pirdata;
+const newDevice = new Device({
+  id,
+  data
+});
+newDevice.save(err => {
+  return err
+    ? console.log("Error " + error)
+    : console.log("Device Saved");
+});
 
-// });
+});
 
 
 
-// Function 2 =  Main Task - depend upon the ID the message is Passed 
+// Function 2 = based on the ID the message is Passed 
 client.on('message', function (topic, message) {
   let message2 = message.toString();
   const myArray = message2.split(" ");
@@ -85,15 +79,3 @@ client.on('message', function (topic, message) {
   });
 });
 
-/*
-
-Arduino Message Format = Arduino001 12
-
-* Arduino001 = ID
-* 12 = Data (Sensor Data)
-
-*/
-
-/*
-MQTT ID = mqtt subscribe -h broker.hivemq.com -p 1883 -t /2110994798/command
-*/
