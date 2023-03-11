@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name = "viewport" content = "width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
+	<title>Smart Car Control</title>
+	<!-- Link Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="full-page" id="body-page">
+    <div class="container-fluid">
+      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/login">Yohjit Chopra</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/login">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/aboutus">About Us</a>
+                </li>
+              </ul>
+
+        </div>
+      </nav>
+    </div>
+	<div class="container">
+        <!-- <center> -->
+
+    <div class="main-branch" id="main-branch">
+		<h2 class="Heading-main">Smart Car System</h2>
+        <h1>Above and Beyond</h1>
+        <h2 class="description">Topic 3 - Iot Server</h2>
+    </div>
+
+    <div class="hidden" id="sub-branch">
+        <h2 class="Heading">Car Details</h2>
+          <h1>Above and Beyond</h1>
+          <h2 class="description">Topic 3 - Iot Server</h2>
+      </div>
+
+    
+
+    
+
+
+		<form id="login-form" class="container">
+			<div class="form-group">
+				<label class="text-type" for="username">Username:</label>
+				<input type="text" class="form-control" id="username" name="username">
+			</div>
+			<div class="form-group">
+				<label class="text-type" for="password">Password:</label>
+				<input type="password" class="form-control" id="password" name="password">
+			</div>
+			<button type="submit" class="btn" id="login_click">Login</button>
+		</form>
+    <!-- </center> -->
+	</div>
+
+  <div class="container hidden userss" id="user1-page">
+    <h2>Welcome Yohjit Chopra !</h2>
+    <p>Smart Car Information:</p>
+    <ul>
+      <li>Manufacturer: Hyundai</li>
+      <li>Model: Verna</li>
+      <li>Color: Silver</li>
+      <li>Year of Purchase: 2015</li>
+      <li>Seater: 5</li>
+
+    </ul>
+    
+  </div>
+
+  <div class="container hidden userss" id="user2-page">
+    <h2>Welcome Mayank Sharma !</h2>
+    <p>Smart Car Information:</p>
+    <ul>
+      <li>Manufacturer: Mahindra</li>
+      <li>Model: XUV 700</li>
+      <li>Color: Polar White</li>
+      <li>Year of Purchase: 2021</li>
+      <li>Seater: 7</li>
+    </ul>
+    
+  </div>
+
+  <div class="container hidden userss" id="user3-page">
+    <h2>Welcome Ishaan Gupta !</h2>
+    <p>Smart Car Information:</p>
+    <ul>
+      <li>Manufacturer: Kia</li>
+      <li>Model: Seltos</li>
+      <li>Color: Black</li>
+      <li>Year of Purchase: 2022</li>
+      <li>Seater: 5</li>
+    </ul>
+    
+  </div>
+
+</div>
+
+	<!-- Link jQuery and Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- Login form submission handler -->
+	<script src="app.js"></script>
+</body>
+</html>

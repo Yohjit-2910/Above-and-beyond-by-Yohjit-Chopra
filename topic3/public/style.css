@@ -1,0 +1,249 @@
+.full-page{
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://i.pinimg.com/736x/ac/6d/65/ac6d6510b18041efbbab69c89a656e7f.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.full-page-magic
+{
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://wallpaperaccess.com/full/1804621.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+
+.hidden {
+    display: none;
+  }
+
+
+.navbar
+{
+    background-color: black;
+    /* -webkit-box-shadow: 0px 0px 50px #c64d1d73; */
+
+    /* -webkit-box-shadow: 0 8px 6px 6px #c94d1c60; */
+    /* -moz-box-shadow: 0 8px 6px 6px #c94d1c60; */
+    box-shadow: 0 0 60px 2px #c94d1c60;
+}
+
+
+.userss h2{
+    position:absolute;
+    /* position:fixed; */
+    margin-top: -10%;
+    margin-left:40%;
+    width: 40%;
+    background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+    border-radius:10px;
+    box-shadow: 0 0 80px 30px #ff61241f;
+    padding: 2%;
+}
+
+
+.userss p{
+    position:absolute;
+    /* position:fixed; */
+    margin-top: 19%;
+    margin-left:35%;
+    width: 40%;
+    background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+    border-radius:10px;
+    box-shadow: 0 0 80px 30px #ff61241f;
+    padding: 2%;
+    font-size: 150%;
+    color: #F3C693;
+    font-family: Lato, sans-serif;
+}
+
+
+.userss ul{
+    position:absolute;
+    /* position:fixed; */
+    margin-top: 26%;
+    margin-left: 35%;
+    width: 40%;
+    background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+    border-radius:10px;
+    box-shadow: 0 0 80px 30px #ff61241f;
+    padding: 2%;
+    color: white;
+    font-size: 130%;
+    font-family: Montserrat, sans-serif;
+}
+
+.nav-link
+{
+    color: #F3C693;
+}
+
+.nav-link:hover
+{
+    color: white;
+}
+
+
+.navbar-brand
+{
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar-brand:hover
+{
+    color: #F3C693
+}
+
+.Heading
+{
+    margin-left: 8.5%;
+    font-size: 220%;
+}
+
+.Heading-main
+{
+    margin-left: 5.5%;
+    font-size: 220%;
+}
+
+#login-form
+{
+    position:absolute;
+    /* position:fixed; */
+    margin-top: 19%;
+    margin-left:30%;
+    width: 50%;
+    background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+    border-radius:10px;
+    box-shadow: 0 0 80px 30px #ff61241f;
+    padding: 2%;
+
+}
+
+.table
+{
+    position:absolute;
+    /* position:fixed; */
+    margin-top: 18%;
+    margin-left:30%;
+    width: 50%;
+    background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+    border-radius:10px;
+    box-shadow: 0 0 80px 30px #ff61241f;
+    padding: 2%;
+}
+
+.table th{
+    color: #F3C693;
+    align-content: center;
+    font-size: 130%;
+}
+
+.table tbody{
+    color: white;
+    align-content: center;
+}
+
+.data-user
+{
+    position:absolute;
+    margin-top: 18%;
+    margin-left:50%;
+    color: #F3C693;
+    font-size: 130%;
+    width: auto;
+}
+
+.form-group
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+    /* box-shadow: 0 0 20px 9px #ff61241f; */
+	outline:none;
+	background: transparent;
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-control
+{
+    background:rgba(0,0,0,0.55);
+    outline-color: red;
+}
+
+.form-control:active{
+    outline-color: red;
+}
+
+.btn
+{
+    width: 45%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+    box-shadow: 0 0 20px 9px #ff61241f;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+h2
+{
+    position: fixed;
+    left: 12%;
+    top: 37%;
+    width: auto;
+    color:white;
+    font-family: Montserrat, sans-serif;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+h1
+{
+    position: fixed;
+    left: 180px;
+    top: 41%;
+    width: auto;
+    color:white;
+    font-family: Montserrat, sans-serif;
+    font-size: 350%;
+    font-weight: 800;
+}
+
+.description
+{
+    position: fixed;
+    left: 20%;
+    top: 50%;
+    width: auto;
+    color:white;
+    font-family: Montserrat, sans-serif;
+    font-size: 150%;
+    font-weight: 800;
+}
+
+

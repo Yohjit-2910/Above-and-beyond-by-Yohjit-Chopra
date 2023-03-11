@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smart Lighting System</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Smart Lighting System</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Lights</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row" id="lights">
+			<div class="col-md-4 col-sm-6">
+				<div class="card">
+					<div class="card-body">
+						<h2 class="card-title">Bedroom</h2>
+						<div class="form-group">
+							<label for="light1-color">Color:</label>
+							<input type="color" class="form-control" id="light1-color">
+                            
+						</div>
+						<button type="button" class="btn btn-primary" onclick="changeLightColor(1)">Change Color</button>
+                        
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="card">
+					<div class="card-body">
+						<h2 class="card-title">Hall</h2>
+						<div class="form-group">
+							<label for="light2-color">Color:</label>
+							<input type="color" class="form-control" id="light2-color">
+						</div>
+						<button type="button" class="btn btn-primary" onclick="changeLightColor(2)">Change Color</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="card">
+					<div class="card-body">
+						<h2 class="card-title">Kitchen</h2>
+						<div class="form-group">
+							<label for="light3-color">Color:</label>
+							<input type="color" class="form-control" id="light3-color">
+						</div>
+						<button type="button" class="btn btn-primary" onclick="changeLightColor(3)">Change Color</button>
+                        <button type="button" class="btn btn-secondary" onclick="changeLightTitle(3)">Change Title</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<button type="button" class="btn btn-success" onclick="addLight()">Add Light</button>
+        
+	</div>
+    <script src="app.js"></script>
+</body>
+</html>

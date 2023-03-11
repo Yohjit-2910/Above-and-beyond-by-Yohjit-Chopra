@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smart Lighting System</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+        <center>
+			<section>
+				<h1>Smart Lighting System</h1>
+			</section>
+        </center>
+		<ul class="nav nav-tabs" id="light-tabs">
+			<li class="nav-item">
+				<a class="nav-link active" data-toggle="tab" href="#light1">Bedroom</a>
+			</li>
+            <li class="nav-item">
+				<a class="nav-link" data-toggle="tab" href="#light2">Hall</a>
+			</li>
+            <li class="nav-item">
+				<a class="nav-link" data-toggle="tab" href="#light3">Kitchen</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-toggle="tab" href="#light4">Garden</a>
+			</li>
+		</ul>
+
+        
+		<div class="tab-content">
+			<div id="light1" class="tab-pane fade show active">
+				<div class="card">
+					<div class="card-body">
+						<div class="form-group">
+							<label for="light1-name" class="bg-dark p-2 text-white mb-2 bg-opacity-10 rounded-pill">Name of the light:</label>
+							<input type="text" class="form-control" id="light1-name light1 new-tab-name" value="Bedroom Lights">
+						</div>
+						<div class="form-group">
+
+							<input type="color" class="form-control" id="light1-color">
+						</div>
+						<button type="button" class="btn btn-success" onclick="changeLightColor(1)">Change Color</button>
+						<div class="color-display"></div>
+					</div>
+				</div>
+			</div>
+
+            <div id="light2" class="tab-pane fade ">
+				<div class="card">
+					<div class="card-body">
+						<div class="form-group">
+							<label for="light2-name" class="bg-dark p-2 text-white mb-2 bg-opacity-10 rounded-pill">Name of the light:</label>
+							<input type="text" class="form-control" id="light2-name light2" value="Hall Lights">
+						</div>
+						<div class="form-group">
+
+							<input type="color" class="form-control" id="light2-color">
+						</div>
+						<button type="button" class="btn btn-success" onclick="changeLightColor(2)">Change Color</button>
+						<div class="color-display"></div>
+					</div>
+				</div>
+			</div>
+            <div id="light3" class="tab-pane fade ">
+				<div class="card">
+					<div class="card-body">
+						<div class="form-group">
+							<label for="light3-name" class="bg-dark p-2 text-white mb-2 bg-opacity-10 rounded-pill">Name of the light:</label>
+							<input type="text" class="form-control" id="light3-name light3" value="Kitchen Lights">
+						</div>
+						<div class="form-group">
+
+							<input type="color" class="form-control" id="light3-color">
+						</div>
+						<button type="button" class="btn btn-success" onclick="changeLightColor(3)">Change Color</button>
+						<div class="color-display"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="light4" class="tab-pane fade ">
+				<div class="card">
+					<div class="card-body">
+						<div class="form-group">
+							<label for="light4-name" class="bg-dark p-2 text-white mb-2 bg-opacity-10 rounded-pill">Name of the light:</label>
+							<input type="text" class="form-control" id="light4-name light4" value="Garden Lights">
+						</div>
+						<div class="form-group">
+
+							<input type="color" class="form-control" id="light4-color">
+						</div>
+						<button type="button" class="btn btn-success" onclick="changeLightColor(4)">Change Color</button>
+						<div class="color-display"></div>
+					</div>
+				</div>
+			</div>
+            
+		</div>
+        <div class="p-1"></div>
+
+	</div>
+	
+	<script src="app.js"></script>
+</body>
+</html>
